@@ -10,7 +10,7 @@ class BankAccount {
     public void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
-            System.out.printf("✅ Deposit successful. Amount: $%.2f. New Balance: $%.2f\n", amount, balance);
+            System.out.printf(" Deposit successful. Amount: $%.2f. New Balance: $%.2f\n", amount, balance);
         } else {
             System.out.println("❌ Deposit failed. Amount must be positive.");
         }
